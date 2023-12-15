@@ -1,4 +1,4 @@
-
+console.log('JS OK');
 
 
 const firstname = prompt("inserisci il tuo nome; Luca");
