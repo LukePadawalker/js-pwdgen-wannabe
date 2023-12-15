@@ -18,6 +18,10 @@ console.log(color);
 const password = firstname + surname + color + '21';
 console.log(password);
 
-document.getElementById("final-message")
+const finalmessage = document.getElementById("final-message");
+
+finalmessage.innerHTML =` ${password}`;
+
+
 
 
